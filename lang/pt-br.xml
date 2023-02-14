@@ -25,23 +25,23 @@
 	</main_menubar>
 
 	<about name="Sobre">
-		<vita3k>Vita3K: a PS Vita/PS TV Emulator. The world's first functional PS Vita/PS TV emulator.</vita3k>
-		<about_vita3k>Vita3K is an experimental open-source PlayStation Vita/PlayStation TV emulator written in C++ for Windows, Linux, macOS and Android operating systems.</about_vita3k>
-		<note>Note: The emulator is still in a very early stage of development.</note>
-		<github_website>If you're interested in contributing, check out our GitHub:</github_website>
-		<vita3k_website>Visit our website for more info:</vita3k_website>
+		<vita3k>Vita3K: um emulador de PS Vita/PS TV. O primeiro emulador funcional de PS Vita/PS TV do mundo.</vita3k>
+		<about_vita3k>Vita3K é um emulador de PlayStation Vita/PlayStation TV experimental de código aberto escrito em C++ para os sistemas operacionais Windows, Linux, macOS e Android.</about_vita3k>
+		<note>Nota: O emulador ainda está em um estágio extremamente inicial de desenvolvimento.</note>
+		<github_website>Se você estiver interessado em contribuir, confira o nosso Github:</github_website>
+		<vita3k_website>Visite nosso website para mais informações:</vita3k_website>
 		<vita3k_staff>Vita3K Staff</vita3k_staff>
-		<developers>Developers</developers>
-		<contributors>Contributors</contributors>
+		<developers>Desenvolvedores</developers>
+		<contributors>Contribuidores</contributors>
 	</about>
 
 	<app_context>
 		<boot>Boot</boot>
-		<check_app_compatibility>Check App Compatibility</check_app_compatibility>
+		<check_app_compatibility>Checar Compatibilidade do App</check_app_compatibility>
 		<open_issue>Open Issue</open_issue>
 		<create_issue>Create Issue</create_issue>
-		<update_database>Update Database</update_database>
-		<copy_app_info>Copy App Info</copy_app_info>
+		<update_database>Atualizar Database</update_database>
+		<copy_app_info>Copiar Info do App</copy_app_info>
 		<name_and_id>Name and Title ID</name_and_id>
 		<app_summary>App Summary</app_summary>
 		<custom_config>Custom Config</custom_config>
@@ -59,7 +59,7 @@
 		<app_delete>Esse aplicativo e todos os dados relacionados, inclusive dados salvos, serão excluídos.</app_delete>
 		<app_delete_note>Deleting a application may take a while
 depending on its size and your hardware.</app_delete_note>
-		<save_delete>Deseja excluir esses dados salvos?</save_delete>
+		<save_delete>Deseja excluir estes dados salvos?</save_delete>
 		<eligible>Qualificado</eligible>
 		<ineligible>Não qualificado</ineligible>
 		<level>Nível</level>
@@ -76,7 +76,7 @@ depending on its size and your hardware.</app_delete_note>
 	</app_context>
 
 	<common>
-		<submit>Submit</submit>
+		<submit>Enviar</submit>
 		<cancel>Cancelar</cancel>
 		<delete>Excluir</delete>
 		<file_corrupted>O arquivo está corrompido.</file_corrupted>
@@ -203,7 +203,7 @@ depending on its size and your hardware.</app_delete_note>
 
 	<compatibility name="Compatibilidade">
 		<states>
-			<state id = "0">Unknown</state>
+			<state id = "0">Desconhecido</state>
 			<state id = "1260231569">Nada</state>
 			<state id = "1344750319">Inicializável</state>
 			<state id = "1260231381">Intro</state>
@@ -215,13 +215,13 @@ depending on its size and your hardware.</app_delete_note>
 	</compatibility>
 
 	<content_manager name="Gerenciador de conteúdo">
-		<search>Search</search>
+		<search>Busca</search>
 		<application name="Aplicativos">
 			<delete>Os aplicativos selecionados e todos os dados relacionados, inclusive dados salvos, serão excluídos.</delete>
-			<no_item>Não há nenhum itens de conteúdo.</no_item>
+			<no_item>Não há nenhum item de conteúdo.</no_item>
 		</application>
 		<saved_data name="Dados salvos">
-			<delete>Os itens de dados salvos selecionados serão excludíos.</delete>
+			<delete>Os itens dos dados salvos selecionados serão excluídos.</delete>
 			<no_saved_data>Não há dados salvos.</no_saved_data>
 		</saved_data>
 		<theme>Tema</theme>
@@ -230,11 +230,11 @@ depending on its size and your hardware.</app_delete_note>
 	</content_manager>
 
 	<controllers name="Controllers">
-		<connected>Controllers connected</connected>
+		<connected>Controles conectados</connected>
 		<name>Nome</name>
-		<num>Num</num>
-		<not_connected>No compatible controllers connected.
-Connect a controller that is compatible with SDL2.</not_connected>
+		<num>Num.</num>
+		<not_connected>Nenhum controle compatível conectado.
+Conecte um controle que seja compatível com SDL2.</not_connected>
 	</controllers>
 
 	<dialog>
@@ -243,40 +243,40 @@ Connect a controller that is compatible with SDL2.</not_connected>
 		</trophy>
 		<save_data>
 			<delete>
-				<cancel_deleting>Você quer cancelar a exclusão?</cancel_deleting>
+				<cancel_deleting>Cancelar a exclusão?</cancel_deleting>
 				<deletion_complete>Exclusão completa.</deletion_complete>
-				<delete_saved_data>Você quer apagar estes dados salvos?</delete_saved_data>
+				<delete_saved_data>Apagar estes dados salvos?</delete_saved_data>
 			</delete>
 			<info>
 				<details>Detalhes</details>
 				<updated>Atualizado</updated>
 			</info>
 			<load name="Carregar">
-				<cancel_loading>Você quer cancelar o carregamento?</cancel_loading>
+				<cancel_loading>Cancelar o carregamento?</cancel_loading>
 				<no_saved_data>Não há dados salvos.</no_saved_data>
 				<load_complete>Carregamento completo.</load_complete>
-				<loading>Carregamento...</loading>
-				<load_saved_data>Você quer carregar estes dados salvos?</load_saved_data>
+				<loading>Carregando...</loading>
+				<load_saved_data>Carregar estes dados salvos?</load_saved_data>
 			</load>
 			<save name="Salvar">
-				<cancel_saving>Você quer cancelar o salvamento?</cancel_saving>
-				<could_not_save>Não pôde salvar o arquivo.
-Não há espaço livre o bastante no memory card.</could_not_save>
-				<not_free_space>Não há espaço livre o bastante no memory card.</not_free_space>
+				<cancel_saving>Cancelar o salvamento?</cancel_saving>
+				<could_not_save>Não foi possível salvar o arquivo.
+Não há espaço livre suficiente no memory card.</could_not_save>
+				<not_free_space>Não há espaço livre suficiente no memory card.</not_free_space>
 				<new_saved_data>Novos Dados Salvos</new_saved_data>
 				<saving_complete>Salvamento completo.</saving_complete>
 				<save_the_data>Você quer salvar os dados?</save_the_data>
 				<saving>Salvando...</saving>
 				<warning_saving>Salvando...
 Não desligue o sistema ou feche o aplicativo.</warning_saving>
-				<overwrite_saved_data>Você quer sobrescrever estes dados salvos?</overwrite_saved_data>
+				<overwrite_saved_data>Sobrescrever estes dados salvos?</overwrite_saved_data>
 			</save>
 		</save_data>
 	</dialog>
 
 	<game_data>
 		<app_close>O seguinte aplicativo será fechado.</app_close>
-		<data_delete>Dados a serem excludíos:</data_delete>
+		<data_delete>Dados a serem excluídos:</data_delete>
 	</game_data>
 
 	<indicator>
@@ -296,12 +296,12 @@ Não desligue o sistema ou feche o aplicativo.</warning_saving>
 O seu sistema Vita3K está pronto!</completed_setup>
 		<select_language>Selecione um idioma.</select_language>
 		<install_firmware>Instalar firmware.</install_firmware>
-		<install_highly_recommended>Installing both firmware files is highly recommended.</install_highly_recommended>
-		<installed>Installed:</installed>
-		<download_firmware>Download Firmware</download_firmware>
-		<download_font_package>Download Font Package</download_font_package>
-		<install_firmware_file>Install Firmware File</install_firmware_file>
-		<completed>Completed.</completed>
+		<install_highly_recommended>A instalação de ambos os arquivos de firmware é altamente recomendada.</install_highly_recommended>
+		<installed>Instalado:</installed>
+		<download_firmware>Baixar Firmware</download_firmware>
+		<download_font_package>Baixar pacote de Fonte</download_font_package>
+		<install_firmware_file>Instalar arquivo de Firmware</install_firmware_file>
+		<completed>Completo.</completed>
 		<next>Próximo</next>
 	</initial_setup>
 
@@ -309,18 +309,18 @@ O seu sistema Vita3K está pronto!</completed_setup>
 		<start>Iniciar</start>
 		<continue>Continuar</continue>
 		<help>
-			<control_setting>Using configuration set for keyboard in control setting</control_setting>
-			<firmware_not_detected>Firmware not detected. Installation is highly recommended</firmware_not_detected>
-			<firmware_font_not_detected>Firmware font not detected. Installing it is recommended for font text in Live Area</firmware_font_not_detected>
-			<live_area_help>Live Area Help</live_area_help>
-			<browse_app>Browse in app list</browse_app>
-			<browse_app_control>D-pad, Left Stick, Wheel in Up/Down or using Slider</browse_app_control>
-			<start_app>Start App</start_app>
+			<control_setting>Usando o conjunto de configurações para teclado na configuração de controle</control_setting>
+			<firmware_not_detected>Firmware não detectado. A instalação é altamente recomendada</firmware_not_detected>
+			<firmware_font_not_detected>Firmware de fonte não detectado. Instala-lo é recomendado para a fonte de texto na Live Area</firmware_font_not_detected>
+			<live_area_help>Ajuda da Live Area</live_area_help>
+			<browse_app>Navegar pela lista de app</browse_app>
+			<browse_app_control>D-pad, Analógico Esquerdo, Wheel in Up/Down or using Slider</browse_app_control>
+			<start_app>Iniciar App</start_app>
 			<start_app_control>Wheel in Up/Down or using Slider</start_app_control>
-			<show_hide>Show/Hide Live Area during app run</show_hide>
-			<show_hide_control>Press on PS</show_hide_control>
-			<exit_livearea>Exit Live Area</exit_livearea>
-			<exit_livearea_control>Click on Esc or Press on Circle</exit_livearea_control>
+			<show_hide>Mostrar/Esconder Live Area enquanto roda um app</show_hide>
+			<show_hide_control>Pressione PS</show_hide_control>
+			<exit_livearea>Sair da Live Area</exit_livearea>
+			<exit_livearea_control>Aperte Esc ou pressione bolinha/círculo</exit_livearea_control>
 			<manual_help>Manual Help</manual_help>
 			<browse_page>Browse page</browse_page>
 			<browse_page_control>D-pad, Left Stick in Left/Right or Wheel in Up/Down or Click on</browse_page_control>
